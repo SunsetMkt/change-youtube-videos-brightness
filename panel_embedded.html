@@ -1,0 +1,95 @@
+<div
+    style="
+        position: fixed;
+        top: 80px;
+        right: 10px;
+        z-index: 99999;
+        display: none;
+        opacity: 0.9;
+        user-select: none;
+    "
+    id="open_kantcshit"
+>
+    <a style="font-size: 2.3em">🎨</a>
+</div>
+<div
+    style="
+        position: fixed;
+        bottom: 10px;
+        width: 90%;
+        left: 50%;
+        margin-left: -45%;
+        z-index: 9999999;
+        font-size: 1em;
+        text-align: center;
+        opacity: 0.9;
+        user-select: none;
+        border-radius: 10px;
+        background: #fafafa;
+    "
+    id="panel_kantcshit"
+>
+    <div>
+        <div>
+            <form action="#">
+                <p>
+                    <label>Brightness <span id="br_val"></span>%</label
+                    ><input
+                        type="range"
+                        id="br_slider"
+                        min="0"
+                        max="500"
+                        value="100"
+                    /><a id="br_reset"><i>❌</i></a>
+                </p>
+            </form>
+        </div>
+        <div>
+            <form action="#">
+                <p>
+                    <label>Contrast <span id="ct_val"></span>%</label
+                    ><input
+                        type="range"
+                        id="ct_slider"
+                        min="0"
+                        max="500"
+                        value="100"
+                    /><a id="ct_reset"><i>❌</i></a>
+                </p>
+            </form>
+        </div>
+        <div>
+            <form action="#">
+                <p>
+                    <label>Saturation <span id="st_val"></span>%</label
+                    ><input
+                        type="range"
+                        id="st_slider"
+                        min="0"
+                        max="500"
+                        value="100"
+                    /><a id="st_reset"><i>❌</i></a>
+                </p>
+            </form>
+        </div>
+        <div>
+            <form action="#">
+                <p>
+                    <label>Hue <span id="hue_val"></span>deg</label
+                    ><input
+                        type="range"
+                        id="hue_slider"
+                        min="0"
+                        max="360"
+                        value="0"
+                    /><a id="hue_reset"><i>❌</i></a>
+                </p>
+            </form>
+        </div>
+        <div>
+            <p style="text-align: center">
+                <a id="close_kantcshit">Close</a>
+            </p>
+        </div>
+    </div>
+</div>
